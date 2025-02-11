@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const popup = document.createElement("div"); // Create popup element
 
     popup.classList.add("popup-message");
-    popup.innerText = "WRONG ANSWER!!!!!!!!!!!!!!!! >:("; // Message text
+    popup.innerText = "WRONG         ANSWER!!!!!!!!!!!!!!!! >:("; // Message text
     document.body.appendChild(popup); // Add popup to the body
     popup.style.display = "none"; // Hide initially
 
